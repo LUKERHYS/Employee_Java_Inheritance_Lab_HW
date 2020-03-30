@@ -28,6 +28,12 @@ public class DirectorTest {
     }
 
     @Test
+    public void canSetNameNullFail(){
+        director.setName(null);
+        assertEquals("Luke Melvin", director.getName());
+    }
+
+    @Test
     public void canGetNiNumber(){
         assertEquals("GB12345666", director.getNiNumber());
     }
@@ -61,13 +67,19 @@ public class DirectorTest {
     }
 
     @Test
-    public void canRaiseSalary(){
+    public void canRaiseSalaryPass(){
         director.raiseSalary(1000);
         assertEquals(501000, director.getSalary());
     }
 
     @Test
+    public void canRaiseSalaryFail(){
+        director.raiseSalary(-46000);
+        assertEquals(500000, director.getSalary());
+    }
+
+    @Test
     public void canPayBonus(){
-        assertEquals(5000.00, director.payBonus(), 0.01);
+        assertEquals(10000.00, director.payBonus(), 0.01);
     }
 }

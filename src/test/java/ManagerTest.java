@@ -22,9 +22,15 @@ public class ManagerTest {
     }
 
     @Test
-    public void canSetName(){
+    public void canSetNamePass(){
         manager.setName("Lyndsey Fraser");
         assertEquals("Lyndsey Fraser", manager.getName());
+    }
+
+    @Test
+    public void canSetNameNullFail(){
+        manager.setName(null);
+        assertEquals("Luke Melvin", manager.getName());
     }
 
     @Test
@@ -61,9 +67,15 @@ public class ManagerTest {
     }
 
     @Test
-    public void canRaiseSalary(){
+    public void canRaiseSalaryPass(){
         manager.raiseSalary(1000);
         assertEquals(51000, manager.getSalary());
+    }
+
+    @Test
+    public void canRaiseSalaryFail(){
+        manager.raiseSalary(-46000);
+        assertEquals(50000, manager.getSalary());
     }
 
     @Test

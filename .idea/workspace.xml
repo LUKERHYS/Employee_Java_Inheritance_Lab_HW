@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6af1190b-5e0b-4746-be48-79f6f587817b" name="Default Changelist" comment="" />
+    <list default="true" id="6af1190b-5e0b-4746-be48-79f6f587817b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techStaff/DBAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techStaff/DBAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DBAdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DBAdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/techStaff/DBAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/techStaff/DBAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DBAdminTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DBAdminTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DeveloperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeveloperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DirectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DirectorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ManagerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +42,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zqn4rp6tpvLUkLS2KKBzZxlWdS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.All in inheritanceLab">
     <configuration name="All in inheritanceLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -39,41 +61,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeveloperTest.canGetSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DBAdminTest.canSetNameNullFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="METHOD_NAME" value="canGetSalary" />
+      <option name="MAIN_CLASS_NAME" value="DBAdminTest" />
+      <option name="METHOD_NAME" value="canSetNameNullFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeveloperTest.canPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.canSetNameNullFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="METHOD_NAME" value="canPayBonus" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="canSetNameNullFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeveloperTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inheritanceLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="METHOD_NAME" value="canRaiseSalary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerTest.canSetNiNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerTest.canSetNameNullFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="METHOD_NAME" value="canSetNiNumber" />
+      <option name="METHOD_NAME" value="canSetNameNullFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.canSetNamePass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="canSetNamePass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,10 +104,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in inheritanceLab" />
-        <item itemvalue="JUnit.DeveloperTest.canGetSalary" />
-        <item itemvalue="JUnit.DeveloperTest.canRaiseSalary" />
-        <item itemvalue="JUnit.DeveloperTest.canPayBonus" />
-        <item itemvalue="JUnit.ManagerTest.canSetNiNumber" />
+        <item itemvalue="JUnit.DirectorTest.canSetNameNullFail" />
+        <item itemvalue="JUnit.DBAdminTest.canSetNameNullFail" />
+        <item itemvalue="JUnit.ManagerTest.canSetNameNullFail" />
+        <item itemvalue="JUnit.ManagerTest.canSetNamePass" />
       </list>
     </recent_temporary>
   </component>
@@ -103,41 +125,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1585594398078">
+    <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585595984271">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585594396822" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585594398078" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1585594398076">
+    <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585595984271" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1585596930002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585594396819" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585594398076" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1585594398072">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585596930002" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585595098089" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1585596929998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585594396818" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585594398072" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1585594398077">
+    <state width="1878" height="304" key="GridCell.Tab.0.center/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585596929998" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585595098087" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1585596929997">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585594396821" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585594398077" />
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1585581718000">
+    <state width="1878" height="304" key="GridCell.Tab.0.left/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585596929997" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585595098086" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1585596930000">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585581718000" />
-    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1585581717995">
+    <state width="1878" height="304" key="GridCell.Tab.0.right/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585596930000" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/350.1103.1280.777/0.0.1920.1080@0.0.1920.1080" timestamp="1585595098088" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1585595984441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.center/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585581717995" />
-    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1585581717993">
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585595984441" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1585595984439">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.left/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585581717993" />
-    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1585581717999">
+    <state width="1878" height="375" key="GridCell.Tab.1.center/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585595984439" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1585595984438">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.right/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585581717999" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585595984438" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1585595984440">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/350.1080.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1585595984440" />
   </component>
 </project>

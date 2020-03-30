@@ -28,6 +28,12 @@ public class DeveloperTest {
     }
 
     @Test
+    public void canSetNameNullFail(){
+        developer.setName(null);
+        assertEquals("Luke Rhys Melvin", developer.getName());
+    }
+
+    @Test
     public void canGetNiNumber(){
         assertEquals("GB12345666", developer.getNiNumber());
     }
@@ -50,9 +56,15 @@ public class DeveloperTest {
     }
 
     @Test
-    public void canRaiseSalary(){
+    public void canRaiseSalaryPass(){
         developer.raiseSalary(1000);
         assertEquals(46000, developer.getSalary());
+    }
+
+    @Test
+    public void canRaiseSalaryFail(){
+        developer.raiseSalary(-46000);
+        assertEquals(45000, developer.getSalary());
     }
 
     @Test

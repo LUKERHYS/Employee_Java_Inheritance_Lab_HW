@@ -18,6 +18,9 @@ public abstract class Employee {
     }
 
     public void setName(String name) {
+        if(name == null){
+            return;
+        }
         this.name = name;
     }
 
@@ -37,8 +40,12 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public int raiseSalary(int raisedAmount){
-        return this.salary += raisedAmount;
+    public int raiseSalary(int raisedAmount) {
+        if (raisedAmount >= 0) {
+            return this.salary += raisedAmount;
+        } else {
+            return this.salary;
+        }
     }
 
     public double payBonus(){
